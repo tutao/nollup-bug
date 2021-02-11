@@ -2,7 +2,7 @@
   "name": "nollup-bug",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,8 +11,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@rollup/plugin-commonjs": "^17.0.0",
-    "bluebird": "^3.7.2",
-    "nollup": "^0.14.1"
+    "@rollup/plugin-commonjs": "^16.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.0",
+    "node-forge": "0.10.0",
+    "nollup": "0.15.0",
+    "rollup": "2.38.5"
   }
 }
