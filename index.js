@@ -1,3 +1,6 @@
-import bluebird from "bluebird"
+import {object, when} from "testdouble"
 
-bluebird.Promise.resolve(true).then(() => console.log("works!"))
+
+const o = object()
+
+when(o.test()).thenReturn("blah")
